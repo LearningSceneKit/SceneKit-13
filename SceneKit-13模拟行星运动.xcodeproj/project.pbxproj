@@ -15,6 +15,9 @@
 		8305FF831F0F2F6E00BFFA50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8305FF811F0F2F6E00BFFA50 /* LaunchScreen.storyboard */; };
 		8305FF8E1F0F2F6E00BFFA50 /* SceneKit_13______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8305FF8D1F0F2F6E00BFFA50 /* SceneKit_13______Tests.m */; };
 		8305FF991F0F2F6E00BFFA50 /* SceneKit_13______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8305FF981F0F2F6E00BFFA50 /* SceneKit_13______UITests.m */; };
+		8305FFA91F0F31D600BFFA50 /* earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8305FFA61F0F31D600BFFA50 /* earth.jpg */; };
+		8305FFAA1F0F31D600BFFA50 /* moon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8305FFA71F0F31D600BFFA50 /* moon.jpg */; };
+		8305FFAB1F0F31D600BFFA50 /* sun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8305FFA81F0F31D600BFFA50 /* sun.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		8305FF941F0F2F6E00BFFA50 /* SceneKit-13模拟行星运动UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SceneKit-13模拟行星运动UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8305FF981F0F2F6E00BFFA50 /* SceneKit_13______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SceneKit_13______UITests.m"; sourceTree = "<group>"; };
 		8305FF9A1F0F2F6E00BFFA50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8305FFA61F0F31D600BFFA50 /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
+		8305FFA71F0F31D600BFFA50 /* moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moon.jpg; sourceTree = "<group>"; };
+		8305FFA81F0F31D600BFFA50 /* sun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sun.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,9 @@
 		8305FF731F0F2F6E00BFFA50 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8305FFA61F0F31D600BFFA50 /* earth.jpg */,
+				8305FFA71F0F31D600BFFA50 /* moon.jpg */,
+				8305FFA81F0F31D600BFFA50 /* sun.jpg */,
 				8305FF741F0F2F6E00BFFA50 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -207,7 +216,8 @@
 				TargetAttributes = {
 					8305FF6F1F0F2F6E00BFFA50 = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = X585696T4B;
+						ProvisioningStyle = Manual;
 					};
 					8305FF881F0F2F6E00BFFA50 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -246,6 +256,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8305FFAB1F0F31D600BFFA50 /* sun.jpg in Resources */,
+				8305FFA91F0F31D600BFFA50 /* earth.jpg in Resources */,
+				8305FFAA1F0F31D600BFFA50 /* moon.jpg in Resources */,
 				8305FF831F0F2F6E00BFFA50 /* LaunchScreen.storyboard in Resources */,
 				8305FF801F0F2F6E00BFFA50 /* Assets.xcassets in Resources */,
 				8305FF7E1F0F2F6E00BFFA50 /* Main.storyboard in Resources */,
@@ -424,10 +437,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = X585696T4B;
 				INFOPLIST_FILE = "SceneKit-13模拟行星运动/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.SceneKit-13------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "34779f32-976c-48a9-8576-55b1d8bc4e7b";
+				PROVISIONING_PROFILE_SPECIFIER = TestApp;
 			};
 			name = Debug;
 		};
@@ -435,10 +452,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = X585696T4B;
 				INFOPLIST_FILE = "SceneKit-13模拟行星运动/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.SceneKit-13------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "34779f32-976c-48a9-8576-55b1d8bc4e7b";
+				PROVISIONING_PROFILE_SPECIFIER = TestApp;
 			};
 			name = Release;
 		};
@@ -507,6 +528,7 @@
 				8305FF9F1F0F2F6E00BFFA50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8305FFA01F0F2F6E00BFFA50 /* Build configuration list for PBXNativeTarget "SceneKit-13模拟行星运动Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +537,7 @@
 				8305FFA21F0F2F6E00BFFA50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8305FFA31F0F2F6E00BFFA50 /* Build configuration list for PBXNativeTarget "SceneKit-13模拟行星运动UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +546,7 @@
 				8305FFA51F0F2F6E00BFFA50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
