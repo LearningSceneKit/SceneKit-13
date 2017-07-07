@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8305FF751F0F2F6E00BFFA50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8305FF741F0F2F6E00BFFA50 /* main.m */; };
+		8305FF781F0F2F6E00BFFA50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8305FF771F0F2F6E00BFFA50 /* AppDelegate.m */; };
+		8305FF7B1F0F2F6E00BFFA50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8305FF7A1F0F2F6E00BFFA50 /* ViewController.m */; };
+		8305FF7E1F0F2F6E00BFFA50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8305FF7C1F0F2F6E00BFFA50 /* Main.storyboard */; };
+		8305FF801F0F2F6E00BFFA50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8305FF7F1F0F2F6E00BFFA50 /* Assets.xcassets */; };
+		8305FF831F0F2F6E00BFFA50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8305FF811F0F2F6E00BFFA50 /* LaunchScreen.storyboard */; };
+		8305FF8E1F0F2F6E00BFFA50 /* SceneKit_13______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8305FF8D1F0F2F6E00BFFA50 /* SceneKit_13______Tests.m */; };
+		8305FF991F0F2F6E00BFFA50 /* SceneKit_13______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8305FF981F0F2F6E00BFFA50 /* SceneKit_13______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8305FF8A1F0F2F6E00BFFA50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8305FF681F0F2F6E00BFFA50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8305FF6F1F0F2F6E00BFFA50;
+			remoteInfo = "SceneKit-13模拟行星运动";
+		};
+		8305FF951F0F2F6E00BFFA50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8305FF681F0F2F6E00BFFA50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8305FF6F1F0F2F6E00BFFA50;
+			remoteInfo = "SceneKit-13模拟行星运动";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8305FF701F0F2F6E00BFFA50 /* SceneKit-13模拟行星运动.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SceneKit-13模拟行星运动.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8305FF741F0F2F6E00BFFA50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8305FF761F0F2F6E00BFFA50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8305FF771F0F2F6E00BFFA50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8305FF791F0F2F6E00BFFA50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8305FF7A1F0F2F6E00BFFA50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8305FF7D1F0F2F6E00BFFA50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8305FF7F1F0F2F6E00BFFA50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8305FF821F0F2F6E00BFFA50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8305FF841F0F2F6E00BFFA50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8305FF891F0F2F6E00BFFA50 /* SceneKit-13模拟行星运动Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SceneKit-13模拟行星运动Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8305FF8D1F0F2F6E00BFFA50 /* SceneKit_13______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SceneKit_13______Tests.m"; sourceTree = "<group>"; };
+		8305FF8F1F0F2F6E00BFFA50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8305FF941F0F2F6E00BFFA50 /* SceneKit-13模拟行星运动UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SceneKit-13模拟行星运动UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8305FF981F0F2F6E00BFFA50 /* SceneKit_13______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SceneKit_13______UITests.m"; sourceTree = "<group>"; };
+		8305FF9A1F0F2F6E00BFFA50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8305FF6D1F0F2F6E00BFFA50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8305FF861F0F2F6E00BFFA50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8305FF911F0F2F6E00BFFA50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8305FF671F0F2F6E00BFFA50 = {
+			isa = PBXGroup;
+			children = (
+				8305FF721F0F2F6E00BFFA50 /* SceneKit-13模拟行星运动 */,
+				8305FF8C1F0F2F6E00BFFA50 /* SceneKit-13模拟行星运动Tests */,
+				8305FF971F0F2F6E00BFFA50 /* SceneKit-13模拟行星运动UITests */,
+				8305FF711F0F2F6E00BFFA50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8305FF711F0F2F6E00BFFA50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8305FF701F0F2F6E00BFFA50 /* SceneKit-13模拟行星运动.app */,
+				8305FF891F0F2F6E00BFFA50 /* SceneKit-13模拟行星运动Tests.xctest */,
+				8305FF941F0F2F6E00BFFA50 /* SceneKit-13模拟行星运动UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8305FF721F0F2F6E00BFFA50 /* SceneKit-13模拟行星运动 */ = {
+			isa = PBXGroup;
+			children = (
+				8305FF761F0F2F6E00BFFA50 /* AppDelegate.h */,
+				8305FF771F0F2F6E00BFFA50 /* AppDelegate.m */,
+				8305FF791F0F2F6E00BFFA50 /* ViewController.h */,
+				8305FF7A1F0F2F6E00BFFA50 /* ViewController.m */,
+				8305FF7C1F0F2F6E00BFFA50 /* Main.storyboard */,
+				8305FF7F1F0F2F6E00BFFA50 /* Assets.xcassets */,
+				8305FF811F0F2F6E00BFFA50 /* LaunchScreen.storyboard */,
+				8305FF841F0F2F6E00BFFA50 /* Info.plist */,
+				8305FF731F0F2F6E00BFFA50 /* Supporting Files */,
+			);
+			path = "SceneKit-13模拟行星运动";
+			sourceTree = "<group>";
+		};
+		8305FF731F0F2F6E00BFFA50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8305FF741F0F2F6E00BFFA50 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8305FF8C1F0F2F6E00BFFA50 /* SceneKit-13模拟行星运动Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8305FF8D1F0F2F6E00BFFA50 /* SceneKit_13______Tests.m */,
+				8305FF8F1F0F2F6E00BFFA50 /* Info.plist */,
+			);
+			path = "SceneKit-13模拟行星运动Tests";
+			sourceTree = "<group>";
+		};
+		8305FF971F0F2F6E00BFFA50 /* SceneKit-13模拟行星运动UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8305FF981F0F2F6E00BFFA50 /* SceneKit_13______UITests.m */,
+				8305FF9A1F0F2F6E00BFFA50 /* Info.plist */,
+			);
+			path = "SceneKit-13模拟行星运动UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8305FF6F1F0F2F6E00BFFA50 /* SceneKit-13模拟行星运动 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8305FF9D1F0F2F6E00BFFA50 /* Build configuration list for PBXNativeTarget "SceneKit-13模拟行星运动" */;
+			buildPhases = (
+				8305FF6C1F0F2F6E00BFFA50 /* Sources */,
+				8305FF6D1F0F2F6E00BFFA50 /* Frameworks */,
+				8305FF6E1F0F2F6E00BFFA50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SceneKit-13模拟行星运动";
+			productName = "SceneKit-13模拟行星运动";
+			productReference = 8305FF701F0F2F6E00BFFA50 /* SceneKit-13模拟行星运动.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8305FF881F0F2F6E00BFFA50 /* SceneKit-13模拟行星运动Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8305FFA01F0F2F6E00BFFA50 /* Build configuration list for PBXNativeTarget "SceneKit-13模拟行星运动Tests" */;
+			buildPhases = (
+				8305FF851F0F2F6E00BFFA50 /* Sources */,
+				8305FF861F0F2F6E00BFFA50 /* Frameworks */,
+				8305FF871F0F2F6E00BFFA50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8305FF8B1F0F2F6E00BFFA50 /* PBXTargetDependency */,
+			);
+			name = "SceneKit-13模拟行星运动Tests";
+			productName = "SceneKit-13模拟行星运动Tests";
+			productReference = 8305FF891F0F2F6E00BFFA50 /* SceneKit-13模拟行星运动Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8305FF931F0F2F6E00BFFA50 /* SceneKit-13模拟行星运动UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8305FFA31F0F2F6E00BFFA50 /* Build configuration list for PBXNativeTarget "SceneKit-13模拟行星运动UITests" */;
+			buildPhases = (
+				8305FF901F0F2F6E00BFFA50 /* Sources */,
+				8305FF911F0F2F6E00BFFA50 /* Frameworks */,
+				8305FF921F0F2F6E00BFFA50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8305FF961F0F2F6E00BFFA50 /* PBXTargetDependency */,
+			);
+			name = "SceneKit-13模拟行星运动UITests";
+			productName = "SceneKit-13模拟行星运动UITests";
+			productReference = 8305FF941F0F2F6E00BFFA50 /* SceneKit-13模拟行星运动UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8305FF681F0F2F6E00BFFA50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ShiWen;
+				TargetAttributes = {
+					8305FF6F1F0F2F6E00BFFA50 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					8305FF881F0F2F6E00BFFA50 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8305FF6F1F0F2F6E00BFFA50;
+					};
+					8305FF931F0F2F6E00BFFA50 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8305FF6F1F0F2F6E00BFFA50;
+					};
+				};
+			};
+			buildConfigurationList = 8305FF6B1F0F2F6E00BFFA50 /* Build configuration list for PBXProject "SceneKit-13模拟行星运动" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8305FF671F0F2F6E00BFFA50;
+			productRefGroup = 8305FF711F0F2F6E00BFFA50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8305FF6F1F0F2F6E00BFFA50 /* SceneKit-13模拟行星运动 */,
+				8305FF881F0F2F6E00BFFA50 /* SceneKit-13模拟行星运动Tests */,
+				8305FF931F0F2F6E00BFFA50 /* SceneKit-13模拟行星运动UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8305FF6E1F0F2F6E00BFFA50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8305FF831F0F2F6E00BFFA50 /* LaunchScreen.storyboard in Resources */,
+				8305FF801F0F2F6E00BFFA50 /* Assets.xcassets in Resources */,
+				8305FF7E1F0F2F6E00BFFA50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8305FF871F0F2F6E00BFFA50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8305FF921F0F2F6E00BFFA50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8305FF6C1F0F2F6E00BFFA50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8305FF7B1F0F2F6E00BFFA50 /* ViewController.m in Sources */,
+				8305FF781F0F2F6E00BFFA50 /* AppDelegate.m in Sources */,
+				8305FF751F0F2F6E00BFFA50 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8305FF851F0F2F6E00BFFA50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8305FF8E1F0F2F6E00BFFA50 /* SceneKit_13______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8305FF901F0F2F6E00BFFA50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8305FF991F0F2F6E00BFFA50 /* SceneKit_13______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8305FF8B1F0F2F6E00BFFA50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8305FF6F1F0F2F6E00BFFA50 /* SceneKit-13模拟行星运动 */;
+			targetProxy = 8305FF8A1F0F2F6E00BFFA50 /* PBXContainerItemProxy */;
+		};
+		8305FF961F0F2F6E00BFFA50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8305FF6F1F0F2F6E00BFFA50 /* SceneKit-13模拟行星运动 */;
+			targetProxy = 8305FF951F0F2F6E00BFFA50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8305FF7C1F0F2F6E00BFFA50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8305FF7D1F0F2F6E00BFFA50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8305FF811F0F2F6E00BFFA50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8305FF821F0F2F6E00BFFA50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8305FF9B1F0F2F6E00BFFA50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8305FF9C1F0F2F6E00BFFA50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8305FF9E1F0F2F6E00BFFA50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SceneKit-13模拟行星运动/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.SceneKit-13------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8305FF9F1F0F2F6E00BFFA50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SceneKit-13模拟行星运动/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.SceneKit-13------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8305FFA11F0F2F6E00BFFA50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SceneKit-13模拟行星运动Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.SceneKit-13------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SceneKit-13模拟行星运动.app/SceneKit-13模拟行星运动";
+			};
+			name = Debug;
+		};
+		8305FFA21F0F2F6E00BFFA50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SceneKit-13模拟行星运动Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.SceneKit-13------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SceneKit-13模拟行星运动.app/SceneKit-13模拟行星运动";
+			};
+			name = Release;
+		};
+		8305FFA41F0F2F6E00BFFA50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SceneKit-13模拟行星运动UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.SceneKit-13------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SceneKit-13模拟行星运动";
+			};
+			name = Debug;
+		};
+		8305FFA51F0F2F6E00BFFA50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SceneKit-13模拟行星运动UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.com.SceneKit-13------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SceneKit-13模拟行星运动";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8305FF6B1F0F2F6E00BFFA50 /* Build configuration list for PBXProject "SceneKit-13模拟行星运动" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8305FF9B1F0F2F6E00BFFA50 /* Debug */,
+				8305FF9C1F0F2F6E00BFFA50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8305FF9D1F0F2F6E00BFFA50 /* Build configuration list for PBXNativeTarget "SceneKit-13模拟行星运动" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8305FF9E1F0F2F6E00BFFA50 /* Debug */,
+				8305FF9F1F0F2F6E00BFFA50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8305FFA01F0F2F6E00BFFA50 /* Build configuration list for PBXNativeTarget "SceneKit-13模拟行星运动Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8305FFA11F0F2F6E00BFFA50 /* Debug */,
+				8305FFA21F0F2F6E00BFFA50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8305FFA31F0F2F6E00BFFA50 /* Build configuration list for PBXNativeTarget "SceneKit-13模拟行星运动UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8305FFA41F0F2F6E00BFFA50 /* Debug */,
+				8305FFA51F0F2F6E00BFFA50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8305FF681F0F2F6E00BFFA50 /* Project object */;
+}
